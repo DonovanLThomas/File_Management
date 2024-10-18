@@ -7,12 +7,14 @@ import logging
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-source_dir = "/Users/dono_1k/Downloads"
-source_dir_Images = "/Users/dono_1k/Documents/Images"
-source_dir_SFX = "/Users/dono_1k/Documents/SFX"
-source_dir_Movies = "/Users/dono_1k/Documents/Movies"
-source_dir_Music = "/Users/dono_1k/Documents/Music"
-source_dir_Pdf = "/Users/dono_1k/Documents/Pdf"
+#Program transfers from Downloads to Documents by default can be interchanged with different directories
+
+source_dir = "/Users/username/Downloads" #original Directory "/Downloads"
+source_dir_Images = "/Users/username/Documents/Images"
+source_dir_SFX = "/Users/username/Documents/SFX"
+source_dir_Movies = "/Users/username/Documents/Movies"
+source_dir_Music = "/Users/username/Documents/Music"
+source_dir_Pdf = "/Users/username/Documents/Pdf"
 
 def make_unique(destination, name):
     filename, extension = splitext(name)
