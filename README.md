@@ -48,11 +48,12 @@ When a file is moved, the log might look like:
 2024-10-18 14:34:56 - Moving file 'song.mp3' to 'Music/song.mp3'
 2024-10-18 14:34:57 - File 'photo.jpg' moved to 'Images/photo.jpg'
 
-AUTHOR:
-Donovan Thomas
+
 
 Stopping the Script
 You can stop the script by pressing CTRL+C in the terminal. The script will shut down the monitoring process.
 
+AUTHOR:
+Donovan Thomas
 
 
